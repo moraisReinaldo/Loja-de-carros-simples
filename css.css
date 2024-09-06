@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#Prateleira {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.carro-info {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.carro-info h3 {
+    margin: 0 0 10px;
+}
+
+.carro-info img {
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    max-width: 280px;
+}
+
+.carro-info h5, .carro-info h4 {
+    margin: 10px 0;
+}
+
+.parcelamento {
+    margin-top: 10px;
+}
+
+.parcelamento select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.parcelamento div {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
